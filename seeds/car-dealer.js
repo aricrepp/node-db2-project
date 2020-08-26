@@ -1,5 +1,5 @@
 exports.seed = async function (knex) {
-  await knex('car-dealer').insert([
+  await knex('car').insert([
     {
       vin: '1234',
       make: 'Chevy',
